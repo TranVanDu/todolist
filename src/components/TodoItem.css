@@ -1,0 +1,35 @@
+.TodoItem {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: 300;
+    padding: 20px 10px;
+    color: #111;
+    border-bottom: 1px solid #CCC;
+    display: flex;
+}
+.TodoItem-complete p{
+    text-decoration: line-through;
+    opacity: 0.2;
+}
+.TodoItem :last-child{
+    border-bottom: none;
+}
+.TodoItem >p {
+    padding: 0px;
+    margin: 0px;
+    margin-left: 10px;
+    width: 100%;
+}
+.TodoItem img {
+    opacity: 0.2;
+}
+.TodoItem-complete img {
+    opacity: 1;
+}
+.TodoItem .Thover{
+    opacity: 0;
+    margin-left: 10px;
+}
+.TodoItem:hover .Thover{
+    opacity: 1;
+}

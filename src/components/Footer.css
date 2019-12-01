@@ -1,0 +1,59 @@
+.footer{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    color: #888;
+}
+
+.btn {
+    margin-left: 40px;
+}
+span {
+    margin-left: 2px;
+}
+.btn .button {
+    margin-left: 10px;
+    background-color: #FFF;
+    border: none;
+    text-decoration: none;
+    color: #999;
+}
+.btn .button:hover {
+    border: 1px solid rgb(231, 163, 14);
+    border-radius: 2px;
+    color: #666;
+}
+.btn .button:active {
+    border: 1px solid rgb(231, 163, 14);
+    border-radius: 2px;
+}
+
+.btn .All{
+    border: 1px solid rgb(231, 163, 14);
+    border-radius: 2px;
+}
+.btn .Active {
+    border: 1px solid rgb(231, 163, 14);
+    border-radius: 2px;
+}
+
+.btn .Complete {
+    border: 1px solid rgb(231, 163, 14);
+    border-radius: 2px;
+}
+.btn-all {
+    background-color: #fff;
+    color: #AAA;
+    font-size: 14px;
+    border: none;
+    display: none;
+    margin-left: 50px;
+}
+.Clear {
+    display: inline-block;
+}
+.Clear:hover {
+    color: #666;
+    text-decoration: underline;
+}
